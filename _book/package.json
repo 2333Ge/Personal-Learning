@@ -1,0 +1,20 @@
+{
+  "name": "personal-learning",
+  "version": "0.0.0",
+  "description": "personal-learning",
+  "main": "./index.js",
+  "scripts": {
+    "push": "./bin/push.sh"
+  },
+  "devDependencies": {
+    "gitbook": "^3.2.2",
+    "gitbook-cli": "^2.3.0",
+    "gitbook-plugin-search-pro": "^2.0.2",
+    "gitbook-plugin-fontsettings": "^2.0.0"
+  },
+  "author": "",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
