@@ -1,0 +1,14 @@
+{
+    "title": "Journal",
+    "author": "ych",
+    "description": "description",
+    "language": "zh-hans",
+    "structure": {
+        "readme": "README.md"
+    },
+    "links": {
+        "sidebar": {
+            "github": "https://github.com/2333Ge"
+        }
+    }
+}
