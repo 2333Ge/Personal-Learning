@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>代码质量 · Journal</title>
+        <title>《重构》笔记 · Journal</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,8 @@
     <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="《重构》笔记.html" />
     
-    
-    <link rel="prev" href="../开发工具使用技巧/MAC/MAC概览.html" />
+    <link rel="prev" href="代码质量.html" />
     
 
     </head>
@@ -364,7 +362,7 @@
         
         
     
-        <li class="chapter active" data-level="13.1" data-path="代码质量.html">
+        <li class="chapter " data-level="13.1" data-path="代码质量.html">
             
                 <a href="代码质量.html">
             
@@ -377,7 +375,7 @@
             
         </li>
     
-        <li class="chapter " data-level="13.2" data-path="《重构》笔记.html">
+        <li class="chapter active" data-level="13.2" data-path="《重构》笔记.html">
             
                 <a href="《重构》笔记.html">
             
@@ -420,7 +418,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../../.." >代码质量</a>
+        <a href="../../.." >《重构》笔记</a>
     </h1>
 </div>
 
@@ -435,56 +433,55 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x4EE3;&#x7801;&#x8D28;&#x91CF;">&#x4EE3;&#x7801;&#x8D28;&#x91CF;</h1>
-<h2 id="&#x57FA;&#x672C;&#x539F;&#x5219;&#xFF08;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#xFF09;">&#x57FA;&#x672C;&#x539F;&#x5219;&#xFF08;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#xFF09;</h2>
-<ul>
-<li>&#x5355;&#x4E00;&#x804C;&#x8D23;</li>
-<li>&#x5F00;&#x95ED;&#x539F;&#x5219;&#xFF08;&#x5BF9;&#x62D3;&#x5C55;&#x5F00;&#x653E;&#x3001;&#x5BF9;&#x4FEE;&#x6539;&#x5C01;&#x95ED;&#xFF09;</li>
-<li>&#x91CC;&#x6C0F;&#x66FF;&#x6362;&#xFF08;&#x5F15;&#x7528;&#x57FA;&#x7C7B;&#x7684;&#x5730;&#x65B9;&#x5FC5;&#x987B;&#x80FD;&#x900F;&#x660E;&#x4F7F;&#x7528;&#x5176;&#x5B50;&#x7C7B;&#xFF09;</li>
-<li>&#x4F9D;&#x8D56;&#x5012;&#x7F6E;<ul>
-<li>&#x9AD8;&#x5C42;&#x6A21;&#x5757;&#x4E0D;&#x4F9D;&#x8D56;&#x5E95;&#x5C42;&#x6A21;&#x5757;&#xFF0C;&#x4E24;&#x8005;&#x90FD;&#x4F9D;&#x8D56;&#x5176;&#x62BD;&#x8C61;</li>
-<li>&#x62BD;&#x8C61;&#x4E0D;&#x4F9D;&#x8D56;&#x7EC6;&#x8282;</li>
-<li>&#x7EC6;&#x8282;&#x4F9D;&#x8D56;&#x62BD;&#x8C61;</li>
-</ul>
-</li>
-<li>&#x63A5;&#x53E3;&#x9694;&#x79BB;&#xFF08;&#x7C7B;&#x7684;&#x4F9D;&#x8D56;&#x5173;&#x7CFB;&#x5EFA;&#x7ACB;&#x5728;&#x6700;&#x5C0F;&#x63A5;&#x53E3;&#x4E0A;&#xFF09;</li>
-<li>&#x8FEA;&#x7C73;&#x7279;&#x539F;&#x5219;&#xFF08;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x5E94;&#x8BE5;&#x5BF9;&#x5176;&#x4ED6;&#x5BF9;&#x8C61;&#x6709;&#x6700;&#x5C11;&#x7684;&#x4E86;&#x89E3;&#xFF09;</li>
-</ul>
-<h2 id="&#x524D;&#x4EBA;&#x603B;&#x7ED3;">&#x524D;&#x4EBA;&#x603B;&#x7ED3;</h2>
-<ul>
-<li><a href="https://feelschaotic.gitbook.io/android-knowledge-system/shitxing-cheng-chang/tuan-dui-guan-li/dai-ma-zhi-liang-yu-dai-ma-gui-fan" target="_blank">&#x4EE3;&#x7801;&#x4E0E;&#x4EE3;&#x7801;&#x89C4;&#x8303;</a></li>
-</ul>
-<h3 id="&#x6458;&#x8981;">&#x6458;&#x8981;</h3>
-<h4 id="&#x5173;&#x4E8E;&#x70C2;&#x4EE3;&#x7801;&#x7684;&#x90A3;&#x4E9B;&#x4E8B;&#xFF08;&#x4E0A;&#xFF09;">&#x5173;&#x4E8E;&#x70C2;&#x4EE3;&#x7801;&#x7684;&#x90A3;&#x4E9B;&#x4E8B;&#xFF08;&#x4E0A;&#xFF09;</h4>
-<blockquote>
-<p>&#x5F53;&#x4E00;&#x4E2A;&#x56E2;&#x961F;&#x91CC;&#x7684;&#x5E95;&#x5C42;&#x4EE3;&#x7801;&#x96BE;&#x4EE5;&#x9605;&#x8BFB;&#x3001;&#x8026;&#x5408;&#x4E86;&#x4E0A;&#x5C42;&#x7684;&#x903B;&#x8F91;&#x5BFC;&#x81F4;&#x96BE;&#x4EE5;&#x6D4B;&#x8BD5;&#x3001;&#x6216;&#x8005;&#x5BF9;&#x4F7F;&#x7528;&#x573A;&#x666F;&#x505A;&#x4E86;&#x8FC7;&#x591A;&#x7684;&#x5047;&#x8BBE;&#x5BFC;&#x81F4;&#x96BE;&#x4EE5;&#x590D;&#x7528;&#x65F6;&#xFF0C;&#x867D;&#x7136;&#x5B8C;&#x6210;&#x4E86;&#x529F;&#x80FD;&#xFF0C;&#x5B83;&#x4F9D;&#x7136;&#x662F;&#x5768;&#x7FD4;&#x4E00;&#x6837;&#x7684;&#x4EE3;&#x7801;&#x3002;</p>
-<p>&#x51E0;&#x4E4E;&#x6240;&#x6709;&#x7684;&#x70C2;&#x4EE3;&#x7801;&#x90FD;&#x662F;&#x4ECE;&#x201C;&#x591F;&#x7528;&#x7684;&#x4EE3;&#x7801;&#x201D;&#x6F14;&#x5316;&#x6765;&#x7684;&#xFF0C;&#x4EE3;&#x7801;&#x6CA1;&#x53D8;&#xFF0C;&#x4F7F;&#x7528;&#x4EE3;&#x7801;&#x7684;&#x573A;&#x666F;&#x53D1;&#x751F;&#x53D8;&#x4E86;&#xFF0C;&#x539F;&#x672C;&#x591F;&#x7528;&#x7684;&#x4EE3;&#x7801;&#x4E0D;&#x7B26;&#x5408;&#x65B0;&#x7684;&#x573A;&#x666F;&#xFF0C;&#x90A3;&#x4E48;&#x5B83;&#x5C31;&#x6210;&#x4E86;&#x70C2;&#x4EE3;&#x7801;&#x3002;</p>
+                                <blockquote>
+<p>&#x300A;&#x91CD;&#x6784;(&#x7B2C;&#x4E8C;&#x7248;)&#x300B;&#x7B14;&#x8BB0;</p>
 </blockquote>
-<h1 id="&#x53C2;&#x8003;&#x6587;&#x7AE0;">&#x53C2;&#x8003;&#x6587;&#x7AE0;</h1>
-<p>[1] <a href="https://blog.csdn.net/jt521xlg/article/details/47416475" target="_blank">&#x5173;&#x4E8E;&#x70C2;&#x4EE3;&#x7801;&#x7684;&#x90A3;&#x4E9B;&#x4E8B;&#xFF08;&#x4E0A;&#xFF09;</a><br>[2] <a href="http://blog.2baxb.me/archives/1378" target="_blank">&#x5173;&#x4E8E;&#x70C2;&#x4EE3;&#x7801;&#x7684;&#x90A3;&#x4E9B;&#x4E8B;&#xFF08;&#x4E2D;&#xFF09;</a><br>[3] <a href="http://blog.2baxb.me/archives/1499" target="_blank">&#x5173;&#x4E8E;&#x70C2;&#x4EE3;&#x7801;&#x7684;&#x90A3;&#x4E9B;&#x4E8B;&#xFF08;&#x4E0B;&#xFF09;</a></p>
+<h1 id="&#x7B2C;-1-&#x7AE0;-&#x91CD;&#x6784;&#xFF0C;&#x7B2C;&#x4E00;&#x4E2A;&#x793A;&#x4F8B;">&#x7B2C; 1 &#x7AE0; &#x91CD;&#x6784;&#xFF0C;&#x7B2C;&#x4E00;&#x4E2A;&#x793A;&#x4F8B;</h1>
+<h2 id="&#x6458;&#x8981;">&#x6458;&#x8981;</h2>
+<ul>
+<li><p>(p4)&#x5982;&#x679C;&#x4F60;&#x8981;&#x7ED9;&#x7A0B;&#x5E8F;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x7279;&#x6027;&#xFF0C;&#x4F46;&#x53D1;&#x73B0;&#x4EE3;&#x7801;&#x56E0;&#x7F3A;&#x4E4F;&#x826F;&#x597D;&#x7684;&#x7ED3;&#x6784;&#x800C;&#x4E0D;&#x6613;&#x4E8E;&#x8FDB;&#x884C;&#x66F4;&#x6539;&#xFF0C;&#x90A3;&#x5C31;&#x5148;&#x91CD;&#x6784;&#x90A3;&#x4E2A;&#x7A0B;&#x5E8F;&#xFF0C;&#x4F7F;&#x5176;&#x6613;&#x4E8E;&#x6DFB;&#x52A0;&#x8BE5;&#x7279;&#x6027;&#xFF0C;&#x518D;&#x6DFB;&#x52A0;&#x8BE5;&#x7279;&#x6027;</p>
+</li>
+<li><p>(p5)&#x91CD;&#x6784;&#x524D;&#xFF0C;&#x5148;&#x68C0;&#x67E5;&#x81EA;&#x5DF1;&#x662F;&#x5426;&#x6709;&#x4E00;&#x5957;&#x53EF;&#x9760;&#x7684;&#x6D4B;&#x8BD5;&#x96C6;&#xFF0C;&#x5FC5;&#x987B;&#x6709;&#x81EA;&#x6211;&#x68C0;&#x9A8C;&#x7684;&#x80FD;&#x529B;</p>
+</li>
+<li><p>&#xFF08;p5&#x3001;&#x4F5C;&#x8005;&#xFF09;&#x5C06;&#x8981;&#x8FBE;&#x6210;&#x7684;&#x76EE;&#x6807;&#x5199;&#x4E24;&#x904D;&#x3001;&#x4EE3;&#x7801;&#x4E00;&#x904D;&#x3001;&#x6D4B;&#x8BD5;&#x91CC;&#x4E00;&#x904D;&#xFF0C;&#x4E8C;&#x6B21;&#x786E;&#x8BA4;&#x3002;</p>
+</li>
+<li><p>&#xFF08;p8&#xFF09;&#x7ECF;&#x5E38;&#x8FD0;&#x884C;&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#x3001;&#x9636;&#x6BB5;&#x4FDD;&#x5B58;</p>
+</li>
+<li><p>&#xFF08;p10&#x3001;&#x4F5C;&#x8005;&#xFF09;&#x53C2;&#x6570;&#x53D6;&#x540D;&#x5E26;&#x4E0A;&#x7C7B;&#x578B;&#x4FE1;&#x606F;</p>
+</li>
+<li><p>&#xFF08;p10&#xFF09;&#x50BB;&#x74DC;&#x90FD;&#x80FD;&#x5199;&#x51FA;&#x8BA1;&#x7B97;&#x673A;&#x53EF;&#x4EE5;&#x7406;&#x89E3;&#x5F97;&#x4EE3;&#x7801;&#xFF0C;&#x53EA;&#x6709;&#x5199;&#x51FA;&#x4EBA;&#x7C7B;&#x5BB9;&#x6613;&#x7406;&#x89E3;&#x5F97;&#x4EE3;&#x7801;&#x7684;&#xFF0C;&#x624D;&#x662F;&#x4F18;&#x79C0;&#x7684;&#x7A0B;&#x5E8F;&#x5458;</p>
+</li>
+<li><p>&#xFF08;p14&#x3001;20&#xFF09;&#x5185;&#x8054;&#x51FD;&#x6570;&#xFF0C;&#x79FB;&#x9664;&#x5C40;&#x90E8;&#x53D8;&#x91CF;&#x3001;&#x4F7F;&#x63D0;&#x70BC;&#x66F4;&#x7B80;&#x5355;&#xFF0C;&#x5373;&#x4F7F;&#x5BFC;&#x81F4;&#x5FAE;&#x91CF;&#x7684;&#x6027;&#x80FD;&#x635F;&#x5931;</p>
+</li>
+<li><p>&#xFF08;p15&#xFF09;&#x5220;&#x9664;&#x591A;&#x4F59;&#xFF08;&#x5E76;&#x4F1A;&#x5F15;&#x8D77;&#x8BEF;&#x89E3;&#xFF09;&#x7684;&#x6CE8;&#x91CA;</p>
+</li>
+<li><p>&#xFF08;p17&#xFF09; &#x547D;&#x540D;<strong>&#x7B80;&#x660E;&#x627C;&#x8981;</strong></p>
+</li>
+<li><p>(p24) &#x5B9E;&#x73B0;&#x590D;&#x7528;&#xFF0C;&#x62C6;&#x5206;&#x9636;&#x6BB5;</p>
+</li>
+<li><p>(p34) &#x7F16;&#x7A0B;&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x9075;&#x5FAA;&#x8425;&#x5730;&#x6CD5;&#x5219;&#xFF0C;&#x4FDD;&#x8BC1;&#x4F60;&#x79BB;&#x5F00;&#x65F6;&#x7684;&#x4EE3;&#x7801;&#x5E93;&#x4E00;&#x5B9A;&#x6BD4;&#x6765;&#x65F6;&#x66F4;&#x5065;&#x5EB7;</p>
+</li>
+<li><p>(p38) JS &#x7684;&#x591A;&#x6001;</p>
+</li>
+<li><p>&#xFF08;p43&#xFF09;<strong>&#x597D;&#x4EE3;&#x7801;&#x7684;&#x68C0;&#x9A8C;&#x6807;&#x51C6;</strong>&#x5C31;&#x662F;&#x4EBA;&#x4EEC;&#x662F;&#x5426;&#x80FD;&#x8F7B;&#x800C;&#x6613;&#x4E3E;&#x7684;&#x4FEE;&#x6539;&#x5B83;</p>
+</li>
+<li><p>&#xFF08;p44&#x3001;&#x4F5C;&#x8005;&#xFF09;&#x4E3A;&#x4EC0;&#x4E48;&#x4F5C;&#x8005;&#x7684;&#x6B65;&#x5B50;&#x8FD9;&#x4E48;&#x5C0F;&#xFF1A;&#x5C0F;&#x7684;&#x6B65;&#x5B50;&#x80FD;&#x66F4;&#x5FEB;&#x524D;&#x8FDB;&#xFF0C;&#x4FDD;&#x6301;&#x4EE3;&#x7801;&#x6C38;&#x8FDC;&#x5904;&#x4E8E;&#x53EF;&#x5DE5;&#x4F5C;&#x72B6;&#x6001;&#xFF0C;&#x5C0F;&#x6B65;&#x4FEE;&#x6539;&#x7D2F;&#x79EF;&#x8D77;&#x6765;&#x4E5F;&#x80FD;&#x5927;&#x5927;&#x6539;&#x5584;&#x7CFB;&#x7EDF;&#x7684;&#x8BBE;&#x8BA1;&#x3002;</p>
+</li>
+</ul>
+<h1 id="&#x7B2C;&#x4E8C;&#x7AE0;-&#x91CD;&#x6784;&#x7684;&#x539F;&#x5219;">&#x7B2C;&#x4E8C;&#x7AE0; &#x91CD;&#x6784;&#x7684;&#x539F;&#x5219;</h1>
+<h2 id="&#x6458;&#x8981;">&#x6458;&#x8981;</h2>
+<ul>
+<li><p>(p45) &#x91CD;&#x6784;&#x7684;&#x6982;&#x5FF5;&#xFF1A;&#x4E0D;&#x6539;&#x53D8;&#x8F6F;&#x4EF6;&#x53EF;&#x89C2;&#x5BDF;&#x884C;&#x4E3A;&#xFF0C;&#x63D0;&#x9AD8;&#x5176;&#x53EF;&#x7406;&#x89E3;&#x884C; &#xFF0C;&#x964D;&#x4F4E;&#x4FEE;&#x6539;&#x6210;&#x672C;</p>
+</li>
+<li><p>(p46) &#x201C;&#x4E24;&#x9876;&#x5E3D;&#x5B50;&#x201D; &#x6DFB;&#x52A0;&#x65B0;&#x529F;&#x80FD;&#x548C;&#x91CD;&#x6784;&#x5E94;&#x8BE5;&#x662F;&#x4E24;&#x4E2A;&#x72EC;&#x7ACB;&#x7684;&#x8FC7;&#x7A0B;&#x3002;</p>
+</li>
+</ul>
 <h1 id="&#x968F;&#x8BB0;">&#x968F;&#x8BB0;</h1>
 <ul>
-<li>&#x4E09;&#x4E2A;&#x5730;&#x65B9;</li>
+<li>&#x91CD;&#x770B; title &#x7406;&#x987A;&#x5E8F;</li>
 </ul>
-<h2 id="&#x5355;&#x5143;&#x6D4B;&#x8BD5;">&#x5355;&#x5143;&#x6D4B;&#x8BD5;</h2>
-<h2 id="&#x968F;&#x624B;&#x91CD;&#x6784;">&#x968F;&#x624B;&#x91CD;&#x6784;</h2>
-<ol>
-<li><p>vscode &#x91CD;&#x6784;</p>
-</li>
-<li><p><a href="https://code.visualstudio.com/Docs/languages/typescript#_refactoring" target="_blank">&#x5B98;&#x7F51;&#x6559;&#x7A0B;</a></p>
-</li>
-<li><a href="https://geek-docs.com/vscode/vscode-tutorials/vs-code-refactor.html" target="_blank">&#x6781;&#x5BA2;&#x7F51;&#x6559;&#x7A0B;</a><blockquote>
-<ul>
-<li>&#x5FEB;&#x6377;&#x952E; f2&#x3001;command+.</li>
-<li>&#x70B9;&#x51FB;&#x9EC4;&#x8272; &#x1F4A1; &#x5FEB;&#x901F;&#x91CD;&#x6784;</li>
-</ul>
-</blockquote>
-</li>
-</ol>
-<h2 id="&#x89C4;&#x8303;">&#x89C4;&#x8303;</h2>
-<ul>
-<li>typeDoc &#x63D0;&#x4F9B;&#x7ED9;&#x5916;&#x90E8;&#x7528;&#x65F6;&#x9700;&#x8981;&#x7684;&#x5DE5;&#x5177;</li>
-</ul>
+<h2 id="&#x91CD;&#x6784;&#x63D2;&#x4EF6;&#xFF08;js-refactor&#xFF09;">&#x91CD;&#x6784;&#x63D2;&#x4EF6;&#xFF08;js refactor&#xFF09;</h2>
+<p>f2 &#x91CD;&#x547D;&#x540D;</p>
 
                                 
                                 </section>
@@ -512,14 +509,10 @@
 
             
                 
-                <a href="../开发工具使用技巧/MAC/MAC概览.html" class="navigation navigation-prev " aria-label="Previous page: mac 概览">
+                <a href="代码质量.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 代码质量">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="《重构》笔记.html" class="navigation navigation-next " aria-label="Next page: 《重构》笔记">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -528,7 +521,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"代码质量","level":"13.1","depth":1,"next":{"title":"《重构》笔记","level":"13.2","depth":1,"path":"src/技术总结/代码质量与代码规范/《重构》笔记.md","ref":"src/技术总结/代码质量与代码规范/《重构》笔记.md","articles":[]},"previous":{"title":"mac 概览","level":"12.1","depth":1,"path":"src/技术总结/开发工具使用技巧/MAC/MAC概览.md","ref":"src/技术总结/开发工具使用技巧/MAC/MAC概览.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"ych","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Journal","language":"zh-hans","links":{"sidebar":{"github":"https://github.com/2333Ge"}},"gitbook":"*","description":"description"},"file":{"path":"src/技术总结/代码质量与代码规范/代码质量.md","mtime":"2020-10-29T02:01:34.630Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-11-02T14:58:38.749Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"《重构》笔记","level":"13.2","depth":1,"previous":{"title":"代码质量","level":"13.1","depth":1,"path":"src/技术总结/代码质量与代码规范/代码质量.md","ref":"./src/技术总结/代码质量与代码规范/代码质量.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"ych","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Journal","language":"zh-hans","links":{"sidebar":{"github":"https://github.com/2333Ge"}},"gitbook":"*","description":"description"},"file":{"path":"src/技术总结/代码质量与代码规范/《重构》笔记.md","mtime":"2020-11-02T11:20:33.062Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-11-02T14:58:38.749Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>
