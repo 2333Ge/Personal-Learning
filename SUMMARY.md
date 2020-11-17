@@ -6,6 +6,10 @@
 
 ## 编程经验
 
+### Android
+
+- [《Android 开发艺术探索》笔记](../src/技术总结/编程经验/Android/《Android开发艺术探索》笔记.md)
+
 ### React Native
 
 - [【RN-插件 1】原生插件-初始化、发布 npm&使用](src/技术总结/编程经验/ReactNative/【RN-插件1】原生插件-初始化、发布npm&使用.md)
@@ -21,6 +25,7 @@
 ### Android Studio
 
 <!-- - [AS 快捷键](./src/技术总结/开发工具使用技巧/AndroidStudio/AS快捷键.md) -->
+
 - [AS 调试技巧](./src/技术总结/开发工具使用技巧/AndroidStudio/AS调试技巧.md)
 
 ### VSCode
