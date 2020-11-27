@@ -7,7 +7,7 @@ https://developer.android.google.cn/studio/command-line/logcat?hl=zh_cn
 ## -b + 缓冲区
 
 ```
-adb logcat -b all | grep "am_on_create.*com.spruce.crm.ui.activity."
+adb logcat -b all | grep "am_on_create.*{...activity}"
 ```
 
 加载可供查看的备用日志缓冲区

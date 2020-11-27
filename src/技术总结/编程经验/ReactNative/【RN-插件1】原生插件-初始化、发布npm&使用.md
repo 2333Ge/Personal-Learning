@@ -91,10 +91,13 @@ npm login
 ```
 
 - 链接原生库
+
   - react-native link
+
   ```
     react-native link react-native-ych-test
   ```
+
   - 或者 `setting.gradle` 文件中
 
     ```java
@@ -122,7 +125,7 @@ npm login
 
 # 参考文献
 
-[1] [开发自己的 react-native 组件并发布到 npm](https://www.jianshu.com/p/091a68ea1ca7)
+[1] [开发自己的 react-native 组件并发布到 npm](https://www.jianshu.com/p/091a68ea1ca7)  
 [2] [链接原生库](https://reactnative.cn/docs/linking-libraries-ios.html)
 
 # 附录
