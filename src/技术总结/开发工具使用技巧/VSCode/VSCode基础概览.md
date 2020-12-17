@@ -14,6 +14,11 @@
 
 检查是否装到了下载目录里了
 
+## vscode-mindmap
+
+- 思维导图插件
+- 创建.km 文件，vscode 自动识别
+
 ## Markdown
 
 - Markdown paste
@@ -43,3 +48,11 @@ Git 历史提交比较
 - [Git 历史提交比较](https://www.cnblogs.com/EdisonVan/p/10642698.html)
 - [极客教程-VSCode 教程](https://geek-docs.com/vscode/vscode-tutorials/what-is-vscode.html)
   > 中文版，说明较详细
+
+# 其他
+
+### vscode 正则查找目标文件示例
+
+```
+ListItem[\w\W]*common-components[\w\W]*<ListItem
+```
