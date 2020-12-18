@@ -1,3 +1,15 @@
+# 概览
+
+## 实用命令
+
+- 查看模块所有版本
+
+```sh
+npm view deepmerge versions
+```
+
+-
+
 # 相关资料
 
 - [剖析 npm 的包管理机制](https://juejin.cn/post/6844904022080667661)
