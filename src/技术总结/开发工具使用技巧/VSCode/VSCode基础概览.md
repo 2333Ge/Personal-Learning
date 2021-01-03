@@ -19,6 +19,10 @@
 - 思维导图插件
 - 创建.km 文件，vscode 自动识别
 
+## Draw.io Integration
+
+- 流程图
+
 ## Markdown
 
 - Markdown paste
@@ -31,6 +35,10 @@
 ## Color highLight
 
 颜色高光
+
+## [KoroFileHeader](https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE)
+
+注释插件
 
 ## Chinese
 
