@@ -1,0 +1,809 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>《Android 开发艺术探索》笔记 · Journal</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="ych">
+        
+        
+    
+    <link rel="stylesheet" href="../../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../ReactNative/【RN-插件1】原生插件-初始化、发布npm&使用.html" />
+    
+    
+    <link rel="prev" href="../../开发工具使用技巧/Npm/NPM概览.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://github.com/2333Ge/Personal-Learning" target="_blank" class="custom-link">github</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../../">
+            
+                <a href="../../../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">代码质量与代码规范</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../代码质量与代码规范/代码质量.html">
+            
+                <a href="../../代码质量与代码规范/代码质量.html">
+            
+                    
+                    代码质量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../代码质量与代码规范/《重构》笔记.html">
+            
+                <a href="../../代码质量与代码规范/《重构》笔记.html">
+            
+                    
+                    《重构》笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">开发工具使用技巧</li>
+        
+        
+    
+
+    
+        
+        <li class="header">Android Studio</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../../开发工具使用技巧/AndroidStudio/AS调试技巧.html">
+            
+                <a href="../../开发工具使用技巧/AndroidStudio/AS调试技巧.html">
+            
+                    
+                    AS 调试技巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">VSCode</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../../开发工具使用技巧/VSCode/VSCode基础概览.html">
+            
+                <a href="../../开发工具使用技巧/VSCode/VSCode基础概览.html">
+            
+                    
+                    VSCode 基础概览
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">ADB</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../../开发工具使用技巧/ADB/ADB-LogCat.html">
+            
+                <a href="../../开发工具使用技巧/ADB/ADB-LogCat.html">
+            
+                    
+                    ADB LogCat
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="../../开发工具使用技巧/ADB/ADB-Shell.html">
+            
+                <a href="../../开发工具使用技巧/ADB/ADB-Shell.html">
+            
+                    
+                    ADB Shell
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Git</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../../开发工具使用技巧/Git/Git实用命令.md">
+            
+                <span>
+            
+                    
+                    Git 实用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Gradle</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../../开发工具使用技巧/Gradle/Gradle概览.html">
+            
+                <a href="../../开发工具使用技巧/Gradle/Gradle概览.html">
+            
+                    
+                    Gradle 概览
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Android 设备</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" data-path="../../开发工具使用技巧/Android设备/Android开发者选项.html">
+            
+                <a href="../../开发工具使用技巧/Android设备/Android开发者选项.html">
+            
+                    
+                    Android 开发者选项
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">代码规范工具</li>
+        
+        
+    
+        <li class="chapter " data-level="10.1" data-path="../../开发工具使用技巧/代码规范工具/代码规范工具概览.html">
+            
+                <a href="../../开发工具使用技巧/代码规范工具/代码规范工具概览.html">
+            
+                    
+                    ESLint
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">mac</li>
+        
+        
+    
+        <li class="chapter " data-level="11.1" data-path="../../开发工具使用技巧/MAC/MAC概览.html">
+            
+                <a href="../../开发工具使用技巧/MAC/MAC概览.html">
+            
+                    
+                    mac 概览
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">npm</li>
+        
+        
+    
+        <li class="chapter " data-level="12.1" data-path="../../开发工具使用技巧/Npm/NPM概览.html">
+            
+                <a href="../../开发工具使用技巧/Npm/NPM概览.html">
+            
+                    
+                    NPM 概览
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">编程经验</li>
+        
+        
+    
+
+    
+        
+        <li class="header">Android</li>
+        
+        
+    
+        <li class="chapter active" data-level="14.1" data-path="《Android开发艺术探索》笔记.html">
+            
+                <a href="《Android开发艺术探索》笔记.html">
+            
+                    
+                    《Android 开发艺术探索》笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">React Native</li>
+        
+        
+    
+        <li class="chapter " data-level="15.1" data-path="../ReactNative/【RN-插件1】原生插件-初始化、发布npm&使用.html">
+            
+                <a href="../ReactNative/【RN-插件1】原生插件-初始化、发布npm&使用.html">
+            
+                    
+                    【RN-插件 1】原生插件-初始化、发布 npm&使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.2" data-path="../ReactNative/【RN-插件2】原生视图插件.html">
+            
+                <a href="../ReactNative/【RN-插件2】原生视图插件.html">
+            
+                    
+                    【RN-插件 2】原生视图插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">React</li>
+        
+        
+    
+        <li class="chapter " data-level="16.1" data-path="../React/Hooks使用笔记.html">
+            
+                <a href="../React/Hooks使用笔记.html">
+            
+                    
+                    Hooks 使用笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.2" data-path="../React/React语法基础.html">
+            
+                <a href="../React/React语法基础.html">
+            
+                    
+                    React 语法基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../../.." >《Android 开发艺术探索》笔记</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="activity-&#x751F;&#x547D;&#x5468;&#x671F;&#x548C;&#x542F;&#x52A8;&#x6A21;&#x5F0F;">Activity &#x751F;&#x547D;&#x5468;&#x671F;&#x548C;&#x542F;&#x52A8;&#x6A21;&#x5F0F;</h1>
+<h2 id="&#x751F;&#x547D;&#x5468;&#x671F;">&#x751F;&#x547D;&#x5468;&#x671F;</h2>
+<ul>
+<li>&#x6CE8;&#x610F; restart</li>
+<li>&#x65B0; activity &#x91C7;&#x7528;&#x900F;&#x660E;&#x4E3B;&#x9898;&#xFF0C;&#x5F53;&#x524D; activity &#x4E0D;&#x4F1A;&#x8C03;&#x7528; onstop</li>
+<li>&#x542F;&#x52A8;&#x65B0; activity&#xFF0C;&#x65B0;&#x7684; onResume &#x548C;&#x65E7;&#x7684; onPause &#x90A3;&#x4E2A;&#x5148;&#x6267;&#x884C;<ul>
+<li>&#x65E7;&#x7684; onPause &#x5148;&#x6267;&#x884C;</li>
+<li>&#x5C3D;&#x91CF;&#x5728; onStop &#x4E2D;&#x505A;&#x64CD;&#x4F5C;&#xFF0C;&#x4ECE;&#x800C;&#x4F7F;&#x5F97; Activity &#x5C3D;&#x5FEB;&#x663E;&#x793A;&#x5E76;&#x5207;&#x6362;&#x5230;&#x524D;&#x53F0;</li>
+</ul>
+</li>
+<li>onSaveInstance &#x5728; onStop &#x4E4B;&#x524D;&#x548C; onPause &#x6CA1;&#x5FC5;&#x7136;&#x8054;&#x7CFB;</li>
+<li>onRestoretore &#x5728; onStart &#x4E4B;&#x540E;</li>
+<li><p>&#x4FDD;&#x5B58;&#x548C;&#x6062;&#x590D; view &#x7684;&#x5C42;&#x6B21;&#x7ED3;&#x6784; p10</p>
+<ul>
+<li>activity &#x610F;&#x5916;&#x7EC8;&#x7ED3;&#x65F6;&#x8C03;&#x7528; onsaveInstance &#x4FDD;&#x5B58;&#x6570;&#x636E;&#xFF0C;&#x59D4;&#x6258; window&#xFF0C;window &#x59D4;&#x6258;&#x9876;&#x5C42;&#x5BB9;&#x5668;&#xFF08;&#x901A;&#x5E38; DecorView&#xFF09;&#x4FDD;&#x5B58;&#x6570;&#x636E;&#x3002;&#x9876;&#x5C42;&#x5BB9;&#x5668;&#x4E00;&#x4E00;&#x901A;&#x77E5;&#x5B50;&#x5143;&#x7D20;&#x4FDD;&#x5B58;&#x6570;&#x636E;</li>
+</ul>
+</li>
+<li><p>&#x5185;&#x5B58;&#x4E0D;&#x8DB3;&#x65F6;&#x8D44;&#x6E90;&#x56DE;&#x6536;&#x987A;&#x5E8F;</p>
+</li>
+<li><p>&#x7A7A;&#x8FDB;&#x7A0B;&#xFF08;&#x6CA1;&#x548C;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7EC4;&#x4EF6;&#x7ED1;&#x5B9A;&#xFF09;</p>
+</li>
+<li>&#x540E;&#x53F0; activity</li>
+<li>service</li>
+<li>&#x53EF;&#x89C1;&#x975E;&#x524D;&#x53F0; activity</li>
+<li>&#x524D;&#x53F0; activity</li>
+</ul>
+<h2 id="&#x542F;&#x52A8;&#x6A21;&#x5F0F;">&#x542F;&#x52A8;&#x6A21;&#x5F0F;</h2>
+<ul>
+<li><p>standard &#x6A21;&#x5F0F;</p>
+<ul>
+<li>standard &#x6A21;&#x5F0F;&#x9ED8;&#x8BA4;&#x8FDB;&#x5165;&#x542F;&#x52A8;&#x4ED6;&#x7684; activity &#x7684;&#x4EFB;&#x52A1;&#x6808;&#x4E2D;</li>
+<li>&#x975E; activity &#x7C7B;&#x578B;&#x7684; context &#x65E0;&#x4EFB;&#x52A1;&#x6808;&#xFF0C;&#x6545;&#x7528;&#x6B64;&#x7C7B; context &#x542F;&#x52A8; standard activity &#x4F1A;&#x51FA;&#x9519;</li>
+<li>&#x89E3;&#x51B3;&#x4E0A;&#x8FF0;&#x95EE;&#x9898;&#x7684;&#x529E;&#x6CD5;&#xFF0C;&#x4E3A;&#x5F85;&#x542F;&#x52A8; activity &#x5236;&#x5B9A; FLAG_ACTIVITY_NEW_TASK &#x6807;&#x5FD7;&#x4F4D;&#xFF0C;&#x76F8;&#x5F53;&#x4E8E; singleTask</li>
+</ul>
+</li>
+<li><p>singleTop</p>
+<ul>
+<li>&#x6808;&#x9876;&#x590D;&#x7528;&#xFF0C;&#x6808;&#x9876;&#x5DF2;&#x7ECF;&#x5B58;&#x5728;&#x8C03;&#x7528; onNewIntent &#x65B9;&#x6CD5;</li>
+</ul>
+</li>
+<li>singleTask<ul>
+<li>&#x6808;&#x5185;&#x590D;&#x7528;&#xFF0C;&#x5148;&#x67E5;&#x627E;&#x53EA;&#x5F53;&#x4EFB;&#x52A1;&#x6808;&#xFF0C;&#x6808;&#x5185;&#x5DF2;&#x5B58;&#x5728;&#x8C03;&#x7528; onNewIntent &#x65B9;&#x6CD5;</li>
+</ul>
+</li>
+<li>singleInstance<ul>
+<li>singleTask+&#x53EA;&#x80FD;&#x5355;&#x72EC;&#x5B58;&#x5728;&#x4E8E;&#x4E00;&#x4EFB;&#x52A1;&#x6808;&#x4E2D;</li>
+<li>&#x2733; &#x6CE8;&#x610F;&#x540E;&#x53F0;&#x4EFB;&#x52A1;&#x6808;&#x591A;&#x540E;&#x53F0;&#x4EFB;&#x52A1;&#x5207;&#x6362;&#x5230;&#x524D;&#x53F0;&#x7684;&#x60C5;&#x51B5; p18</li>
+</ul>
+</li>
+<li><p>TaskAffinity &#x5C5E;&#x6027;</p>
+<ul>
+<li>&#x6307;&#x5B9A;&#x4EFB;&#x52A1;&#x6808;</li>
+<li>&#x4E3B;&#x8981;&#x548C; singleTask &#x548C; allowTaskReparenting &#x5C5E;&#x6027;&#x642D;&#x914D;&#xFF08;&#x4E0E; allowTaskReparenting &#x642D;&#x914D;&#x7684;&#x60C5;&#x51B5;&#x89C1; p20&#xFF09;</li>
+</ul>
+</li>
+<li><p>&#x5982;&#x4F55;&#x7ED9; activity &#x6307;&#x5B9A;&#x542F;&#x52A8;&#x6A21;&#x5F0F;</p>
+<ul>
+<li>menifest</li>
+<li>intent &#x6DFB;&#x52A0; flag(addFlags &#x65B9;&#x6CD5;)&#xFF0C;&#x4E24;&#x79CD;&#x65B9;&#x6CD5;&#x5747;&#x6709;&#x65F6;&#xFF0C;&#x4EE5;&#x7B2C;&#x4E8C;&#x79CD;&#x65B9;&#x6CD5;&#x4E3A;&#x51C6;</li>
+<li>&#x7B2C;&#x4E00;&#x79CD;&#x65B9;&#x6CD5;&#x65E0;&#x6CD5;&#x6307;&#x5B9A; FLAG_CLEAR_TOP &#x5C5E;&#x6027;&#xFF0C;&#x7B2C;&#x4E8C;&#x79CD;&#x65B9;&#x6CD5;&#x65E0;&#x6CD5;&#x6307;&#x5B9A; singleInstance</li>
+<li>&#x5404;&#x79CD;&#x5404;&#x6837;&#x7684;&#x6807;&#x5FD7;&#x4F4D;&#x53CA;&#x5176;&#x4F7F;&#x7528;&#xFF08;&#x53EF;&#x7528;&#x4E8E;&#x542F;&#x52A8;&#x6A21;&#x5F0F;&#x7684;&#x8F6C;&#x6362;&#xFF09;p27</li>
+</ul>
+</li>
+<li>intent &#x9690;&#x5F0F;&#x8C03;&#x7528;&#x548C;&#x663E;&#x5F0F;&#x8C03;&#x7528;&#x65F6;&#x4EE5;&#x663E;&#x793A;&#x4E3A;&#x4E3B;</li>
+<li>intent &#x7684;&#x5339;&#x914D;&#x6A21;&#x5F0F; p29<ul>
+<li>action&#xFF0C;&#x5176;&#x4E2D;&#x4E00;&#x4E2A;&#xFF0C;&#x4E0D;&#x533A;&#x5206;&#x5927;&#x5C0F;&#x5199;&#xFF08;&#x5FC5;&#x987B;&#x6709;&#xFF09;</li>
+<li>category&#xFF0C;intent &#x4E2D;&#x6240;&#x6709; category &#x5FC5;&#x987B;&#x548C;&#x5176;&#x4E2D;&#x4E00;&#x4E2A; category &#x5339;&#x914D;&#xFF08;&#x53EF;&#x4EE5;&#x6CA1;&#xFF0C;&#x9ED8;&#x8BA4;&#x52A0;&#x4E0A; default category&#xFF09;</li>
+<li>data,mimeType+URI<ul>
+<li>intent &#x6307;&#x5B9A;&#x5B8C;&#x6574;&#x7684; data &#x5FC5;&#x987B;&#x8C03;&#x7528; setDataAndType &#x65B9;&#x6CD5;&#xFF0C;&#x56E0;&#x4E3A; setData &#x548C; setType &#x65B9;&#x6CD5;&#x4F1A;&#x6E05;&#x7A7A;&#x5F7C;&#x6B64;&#x7684;&#x503C;&#x3002;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>&#x9690;&#x5F0F;&#x542F;&#x52A8;&#x65F6;&#x7684;&#x5224;&#x65AD;&#x65B9;&#x6CD5; activity &#x662F;&#x5426;&#x80FD;&#x591F;&#x5339;&#x914D; intent &#x7684;&#x4E24;&#x79CD;&#x65B9;&#x6CD5; p34<ul>
+<li>PackageManager &#x7684; resolveActivity&#xFF08;&#x6700;&#x4F73;&#x5339;&#x914D;&#xFF09;,queryActivitys&#xFF08;&#x6240;&#x6709;&#x6210;&#x529F;&#x5339;&#x914D;&#x9879;&#xFF09;</li>
+<li>&#x6216;&#x8005; Intent &#x7684; resolveActivity</li>
+<li>&#x5339;&#x914D;&#x5931;&#x8D25;&#x5747;&#x8FD4;&#x56DE; null</li>
+</ul>
+</li>
+</ul>
+<h1 id="ipc">IPC</h1>
+<ul>
+<li>&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x591A;&#x8FDB;&#x7A0B;&#x83B7;&#x53D6;&#x591A;&#x5206;&#x5185;&#x5B58;&#x7A7A;&#x95F4;</li>
+<li>&#x7EC4;&#x4EF6;&#x6307;&#x5B9A; process &#x5C5E;&#x6027;&#x4F7F;&#x7528;&#x591A;&#x8FDB;&#x7A0B;<ul>
+<li>&#xFF1A;+&#x8FDB;&#x7A0B;&#x540D;=&#x5305;&#x540D;+&#x5F53;&#x524D;&#x8FDB;&#x7A0B;&#x540D;&#xFF0C;&#x662F;&#x5F53;&#x524D;&#x5E94;&#x7528;&#x79C1;&#x6709;&#x8FDB;&#x7A0B;&#xFF0C;&#x5176;&#x4ED6;&#x7EC4;&#x4EF6;&#x4E0D;&#x80FD;&#x548C;&#x5B83;&#x8DD1;&#x5728;&#x4E00;&#x4E2A;&#x8FDB;&#x7A0B;&#x91CC;&#x9762;</li>
+<li>&#x5B8C;&#x6574;&#x540D;&#x5B57;&#xFF0C;&#x5168;&#x5C40;&#x8FDB;&#x7A0B;&#xFF0C;&#x5176;&#x4ED6;&#x5E94;&#x7528;&#x901A;&#x8FC7; shareUID &#x53EF;&#x4EE5;&#x548C;&#x5B83;&#x8DD1;&#x5728;&#x540C;&#x4E00;&#x8FDB;&#x7A0B;&#x91CC;&#x9762;<ul>
+<li>shareUID:&#x6BCF;&#x4E2A;&#x5E94;&#x7528;&#x552F;&#x4E00;&#xFF0C;UID &#x76F8;&#x540C;&#x624D;&#x80FD;&#x5171;&#x4EAB;&#x6570;&#x636E;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Android &#x4E3A;&#x6BCF;&#x4E00;&#x4E2A;&#x5E94;&#x7528;&#x6216;&#x8FDB;&#x7A0B;&#x5206;&#x914D;&#x4E86;&#x4E00;&#x4E2A;&#x72EC;&#x7ACB;&#x7684;&#x865A;&#x62DF;&#x673A;&#xFF0C;&#x5BFC;&#x81F4;&#x4E0D;&#x540C;&#x865A;&#x62DF;&#x673A;&#x4E2D;&#x8BBF;&#x95EE;&#x540C;&#x4E00;&#x5BF9;&#x8C61;&#x4F1A;&#x4EA7;&#x751F;&#x591A;&#x4E2A;&#x526F;&#x672C;&#x3002;</li>
+<li>&#x591A;&#x8FDB;&#x7A0B;&#x9020;&#x6210;&#x7684;&#x95EE;&#x9898; p40<ul>
+<li>&#x9759;&#x6001;&#x6210;&#x5458;/&#x5355;&#x4F8B;&#x65E0;&#x6548;&#x3002;&#x4E0D;&#x662F;&#x4E00;&#x5757;&#x5185;&#x5B58;&#xFF0C;&#x4E0D;&#x662F;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;</li>
+<li>&#x7EBF;&#x7A0B;&#x540C;&#x6B65;&#x673A;&#x5236;&#x5931;&#x6548;&#xFF0C;&#x540C;&#x4E0A;</li>
+<li>sharedPreference &#x53EF;&#x9760;&#x6027;&#x4E0B;&#x964D;&#xFF0C;&#x8BFB;&#x5199; XML &#x6587;&#x4EF6;</li>
+<li>Applicetion &#x591A;&#x6B21;&#x521B;&#x5EFA;&#x3002;&#x5206;&#x914D;&#x865A;&#x62DF;&#x673A;&#x5373;&#x521B;&#x5EFA;&#x65B0;&#x7684; application</li>
+</ul>
+</li>
+<li>&#x5B9E;&#x73B0;&#x8FDB;&#x7A0B;&#x95F4;&#x901A;&#x4FE1;&#x65B9;&#x5F0F; p42<ul>
+<li>intent&#x3001;&#x5171;&#x4EAB;&#x6587;&#x4EF6;&#x3001;sharedPrefrence&#x3001;&#x57FA;&#x4E8E; Binder &#x7684; Messenger &#x548C; AIDL&#x3001;socket&#x3001;contentProvider</li>
+</ul>
+</li>
+<li>&#x5E8F;&#x5217;&#x5316;<ul>
+<li>serializable &#x63A5;&#x53E3;<ul>
+<li>id &#x4F5C;&#x7528; p42</li>
+<li>static&#x3001;transient &#x5173;&#x952E;&#x5B57;&#x6807;&#x8BB0;&#x7684;&#x6210;&#x5458;&#x53D8;&#x91CF;&#x4E0D;&#x53C2;&#x4E0E;&#x5E8F;&#x5217;&#x5316;</li>
+</ul>
+</li>
+<li>parcelable &#x63A5;&#x53E3;</li>
+<li>&#x4E24;&#x79CD;&#x65B9;&#x5F0F;&#x53D6;&#x820D; p47</li>
+</ul>
+</li>
+</ul>
+<h2 id="binder">Binder</h2>
+<ul>
+<li>&#x5404;&#x79CD;&#x65B9;&#x6CD5;&#x7684;&#x610F;&#x4E49; p53</li>
+<li>RPC &#x8FDC;&#x7A0B;&#x8FC7;&#x7A0B;&#x8C03;&#x7528;</li>
+</ul>
+<h2 id="messenger-&#x7684;&#x4F7F;&#x7528;-p65">Messenger &#x7684;&#x4F7F;&#x7528; p65</h2>
+<h2 id="aidl-p73">AIDL P73</h2>
+<ul>
+<li>&#x81EA;&#x5B9A;&#x4E49;&#x7684; Parcelable &#x5BF9;&#x8C61;&#xFF0C;&#x5FC5;&#x987B;&#x663E;&#x793A;&#x7684; import &#x8FDB;&#x6765;&#xFF0C;&#x4E0D;&#x7BA1;&#x662F;&#x5426;&#x548C;&#x5F53;&#x524D; AIDL &#x6587;&#x4EF6;&#x5904;&#x4E8E;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x5939;</li>
+<li>AIDL &#x7528;&#x5230;&#x81EA;&#x5B9A;&#x4E49;&#x7684; Parcelable &#x5BF9;&#x8C61;&#xFF0C;&#x5FC5;&#x987B;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x540C;&#x540D; AIDL &#x6587;&#x4EF6;&#xFF0C;&#x5E76;&#x5728;&#x5176;&#x4E2D;&#x58F0;&#x660E;&#x5B83;&#x4E3A; Parcelable &#x7C7B;&#x578B;</li>
+<li>aidl &#x9664;&#x57FA;&#x672C;&#x7C7B;&#x578B;&#x7684;&#x53C2;&#x6570;&#xFF0C;&#x9700;&#x8981;&#x6807;&#x4E0A;&#x65B9;&#x5411;</li>
+<li>RemoteBackListener p84</li>
+<li>Binder &#x662F;&#x53EF;&#x80FD;&#x610F;&#x5916;&#x6B7B;&#x4EA1;&#x7684;&#xFF0C;&#x4E24;&#x79CD;&#x91CD;&#x8FDE;&#x670D;&#x52A1;&#x7684;&#x65B9;&#x5F0F; P89<ul>
+<li>onServiceDisconnected&#xFF0C;UI &#x7EBF;&#x7A0B;</li>
+<li>DeathRecipient &#x76D1;&#x542C;&#xFF0C;Binder &#x7EBF;&#x7A0B;&#x6C60;</li>
+</ul>
+</li>
+<li>&#x6743;&#x9650;&#x8BA4;&#x8BC1; p90</li>
+</ul>
+<h1 id="view">View</h1>
+<ul>
+<li>&#x4F4D;&#x7F6E;<ul>
+<li>Left&#x3001;right...&#x90FD;&#x662F;&#x76F8;&#x5BF9;&#x7236;&#x5E03;&#x5C40;&#xFF08;&#x539F;&#x59CB;&#xFF09;</li>
+<li>x&#x3001;y (&#x771F;&#x5B9E;)</li>
+<li>translationX(&#x504F;&#x79FB;)</li>
+</ul>
+</li>
+<li>TouchSlop &#x7CFB;&#x7EDF;&#x80FD;&#x88AB;&#x8BC6;&#x522B;&#x51FA;&#x7684;&#x88AB;&#x8BA4;&#x4E3A;&#x662F;&#x6ED1;&#x52A8;&#x7684;&#x6700;&#x5C0F;&#x8DDD;&#x79BB;<ul>
+<li>ViewConfiguration.get(getContext()).getScaledTouchSlop();</li>
+</ul>
+</li>
+<li>Velocity &#x901F;&#x5EA6; p126<ul>
+<li>&#x5728; onTouchEvent &#x4E2D;&#x8FFD;&#x8E2A;</li>
+<li>&#x4E0D;&#x4F7F;&#x7528;&#x65F6; clear &#x65B9;&#x6CD5;&#x91CD;&#x7F6E;&#x3001;recycle &#x65B9;&#x6CD5;&#x56DE;&#x6536;</li>
+</ul>
+</li>
+<li>GestureDetector &#x624B;&#x52BF;&#x76D1;&#x542C; p127</li>
+<li><p>Scroller &#x5F39;&#x6027;&#x6ED1;&#x52A8;&#x5BF9;&#x8C61; p128&#x3001;p137</p>
+<ul>
+<li>startScroll &#x672C;&#x8EAB;&#x6CA1;&#x6709;&#x505A;&#x7ED8;&#x5236;&#x64CD;&#x4F5C;&#xFF0C;&#x6240;&#x4EE5;&#x540E;&#x9762;&#x5E38;&#x63A5; computeScroll &#x65B9;&#x6CD5;</li>
+<li>computeScroll &#x65B9;&#x6CD5;&#x662F; view &#x4E2D;&#x7684;&#x4E00;&#x4E2A;&#x7A7A;&#x5B9E;&#x73B0;&#xFF0C;&#x9700;&#x8981;&#x81EA;&#x5DF1;&#x5B9E;&#x73B0;&#x3002;view &#x5728;&#x91CD;&#x7ED8;&#x540E;&#x4F1A;&#x5728; draw &#x65B9;&#x6CD5;&#x4E2D;&#x8C03;&#x7528; couputeScroll &#x65B9;&#x6CD5;&#xFF0C;couputeScroll &#x65B9;&#x6CD5;&#x53C8;&#x4F1A;&#x53BB;&#x5411; Scroller &#x83B7;&#x53D6;&#x5F53;&#x524D;&#x7684; scrollX &#x548C; scrollY&#xFF0C;&#x7136;&#x540E;&#x901A;&#x8FC7; srcollTo &#x65B9;&#x6CD5;&#x5B9E;&#x73B0;&#x6ED1;&#x52A8;&#xFF0C;&#x901A;&#x8FC7; postInvalidate &#x65B9;&#x6CD5;&#x5B9E;&#x73B0;&#x4E8C;&#x6B21;&#x91CD;&#x7ED8;&#xFF0C;&#x548C;&#x4E00;&#x6B21;&#x91CD;&#x7ED8;&#x4E00;&#x6837;&#x4F1A;&#x5BFC;&#x81F4; computeScroll &#x65B9;&#x6CD5;&#x88AB;&#x8C03;&#x7528;&#xFF0C;&#x5982;&#x6B64;&#x53CD;&#x590D;&#xFF0C;&#x76F4;&#x81F3;&#x6ED1;&#x52A8;&#x7ED3;&#x675F;&#x3002;</li>
+</ul>
+</li>
+<li><p>&#x5B9E;&#x73B0;&#x6ED1;&#x52A8;&#x7684;&#x4E09;&#x79CD;&#x65B9;&#x5F0F;
+scrollTo&#x3001;scrollBy &#x5185;&#x5BB9;</p>
+<ul>
+<li>&#x6539;&#x53D8; layoutParams &#x4F7F;&#x91CD;&#x65B0;&#x5E03;&#x5C40;</li>
+<li>&#x65BD;&#x52A0;&#x5E73;&#x79FB;&#x6548;&#x679C;&#xFF08;&#x52A8;&#x753B;&#xFF09;</li>
+</ul>
+</li>
+<li>View &#x7684;&#x4E8B;&#x4EF6;&#x5206;&#x53D1;&#x673A;&#x5236; P140<ul>
+<li>&#x4E8B;&#x4EF6;&#x5E8F;&#x5217;<ul>
+<li>&#x624B;&#x6307;&#x63A5;&#x89E6;&#x5C4F;&#x5E55;&#x5230;&#x624B;&#x6307;&#x79BB;&#x5F00;&#x5C4F;&#x5E55;</li>
+</ul>
+</li>
+<li>dispatch...<ul>
+<li>&#x5206;&#x53D1;&#xFF0C;&#x4E8B;&#x4EF6;&#x80FD;&#x4F20;&#x9012;&#x5230;&#x5F53;&#x524D; view,&#x5219;&#x4E00;&#x5B9A;&#x4F1A;&#x88AB;&#x8C03;&#x7528;&#xFF0C;&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#x8868;&#x793A;&#x662F;&#x5426;&#x6D88;&#x8017;&#xFF0C;&#x53D7; onTouch...&#x548C;&#x4E0B;&#x7EA7; View &#x7684; dispatch &#x5F71;&#x54CD;</li>
+</ul>
+</li>
+<li>onIntercept...(&#x6CE8;&#x610F;&#x8BFB;&#x6CD5;)<ul>
+<li>&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#x8868;&#x793A;&#x662F;&#x5426;&#x62E6;&#x622A;&#xFF0C;&#x5982;&#x679C;&#x62E6;&#x622A;&#xFF0C;&#x540C;&#x4E00;&#x4E8B;&#x4EF6;&#x5E8F;&#x5217;&#x6B64;&#x65B9;&#x6CD5;&#x4E0D;&#x4F1A;&#x518D;&#x6B21;&#x8C03;&#x7528;</li>
+</ul>
+</li>
+<li>onTouch...<ul>
+<li>&#x5904;&#x7406;&#x70B9;&#x51FB;&#xFF0C;&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#x8868;&#x793A;&#x662F;&#x5426;&#x6D88;&#x8017;&#xFF0C;&#x4E0D;&#x6D88;&#x8017;&#xFF0C;&#x540C;&#x4E00;&#x4E8B;&#x4EF6;&#x5E8F;&#x5217;&#x4E2D;&#xFF0C;&#x5F53;&#x524D; View &#x65E0;&#x6CD5;&#x518D;&#x6B21;&#x63A5;&#x53D7;&#x5230;&#x4E8B;&#x4EF6;&#x3002;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>&#x4F2A;&#x7801;&#x8868;&#x793A; P141</li>
+<li>onTouchListener &#x5148;&#x4E8E; onTouchEvent &#x8C03;&#x7528;</li>
+<li><p>&#x76F8;&#x5173;&#x7ED3;&#x8BBA; p142</p>
+<ul>
+<li>&#x6B63;&#x5E38;&#x60C5;&#x51B5;&#x4E0B;&#x4E00;&#x4E2A;&#x4E8B;&#x4EF6;&#x5E8F;&#x5217;&#x4E4B;&#x53EA;&#x80FD;&#x88AB;&#x4E00;&#x4E2A; view &#x6D88;&#x8017;</li>
+<li>&#x5982;&#x679C;&#x62E6;&#x622A;&#xFF0C;&#x540C;&#x4E00;&#x4E8B;&#x4EF6;&#x5E8F;&#x5217;&#x6B64;&#x65B9;&#x6CD5;&#x4E0D;&#x4F1A;&#x518D;&#x6B21;&#x8C03;&#x7528;&#xFF0C;&#x5747;&#x4EA4;&#x7ED9;&#x8BE5; view &#x5904;&#x7406;</li>
+<li>view &#x4E0D;&#x6D88;&#x8017; ACTION_DOWN,&#x540C;&#x4E00;&#x4E8B;&#x4EF6;&#x5E8F;&#x5217;&#x4EA4;&#x7ED9;&#x7236;&#x5143;&#x7D20;&#x5904;&#x7406;</li>
+<li>viewGroup &#x9ED8;&#x8BA4;&#x4E0D;&#x62E6;&#x622A;</li>
+<li>view &#x9ED8;&#x8BA4;&#x6D88;&#x8017;&#xFF0C;&#x9664;&#x975E;&#x4E0D;&#x53EF;&#x70B9;&#x51FB;&#xFF08;click&#x3001;longClick &#x540C;&#x65F6; false&#xFF09;</li>
+<li>onclick &#x524D;&#x63D0;&#x53EF;&#x70B9;&#x51FB;&#x3001;&#x6536;&#x5230; on&#x3001;up &#x4E8B;&#x4EF6;</li>
+</ul>
+</li>
+</ul>
+<h1 id="view-&#x7684;&#x5DE5;&#x4F5C;&#x539F;&#x7406;">View &#x7684;&#x5DE5;&#x4F5C;&#x539F;&#x7406;</h1>
+<ul>
+<li>measure &#x8FC7;&#x7A0B;<ul>
+<li>&#x5B50;&#x5143;&#x7D20; measureSpec &#x7531;&#x7236;&#x5BB9;&#x5668; measureSpec &#x548C;&#x5B50;&#x5143;&#x7D20; layoutParams</li>
+<li>&#x91CD;&#x5199; view &#x9700;&#x8981;&#x6CE8;&#x610F;&#x5904;&#x7406; wrap_content &#x548C; padding</li>
+<li>&#x83B7;&#x53D6;&#x5BBD;&#x9AD8; p190<ul>
+<li>view &#x7684; measure &#x8FC7;&#x7A0B;&#x548C; activity &#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x5E76;&#x4E0D;&#x662F;&#x540C;&#x6B65;&#x7684;&#xFF0C;&#x6545;&#x751F;&#x547D;&#x5468;&#x671F;&#x4E2D;&#x83B7;&#x53D6;&#x5BBD;&#x9AD8;&#x53EF;&#x80FD;&#x4E3A; 0&#xFF0C;&#x6545;&#x83B7;&#x53D6;&#x5BBD;&#x9AD8;&#x5E94;&#x8BE5;&#x91C7;&#x53D6;&#x4E0B;&#x9762;&#x7684;&#x65B9;&#x6CD5;</li>
+<li>onWindowFoucusChanged.<ul>
+<li>&#x83B7;&#x53D6;&#x3001;&#x5931;&#x53BB;&#x7126;&#x70B9;&#x65F6;&#x8C03;&#x7528;</li>
+</ul>
+</li>
+<li>view.post(runnable)<ul>
+<li>&#x6295;&#x9012;&#x5230;&#x6D88;&#x606F;&#x961F;&#x5217;&#x5C3E;&#xFF0C;Looperd &#x8C03;&#x7528; runnable &#x65F6;&#xFF0C;View &#x5DF2;&#x7ECF;&#x521D;&#x59CB;&#x8BDD;&#x597D;</li>
+</ul>
+</li>
+<li>viewTreeObserver &#x7684;&#x56DE;&#x8C03;&#x65B9;&#x6CD5;<ul>
+<li>view &#x6811;&#x7684;&#x72B6;&#x6001;&#x53D1;&#x751F;&#x6539;&#x53D8;&#x6216;&#x5185;&#x90E8; view &#x53EF;&#x89C1;&#x6027;&#x53D1;&#x751F;&#x6539;&#x53D8;&#x65F6;&#xFF0C;onClobalLayout &#x65B9;&#x6CD5;&#x5C06;&#x4F1A;&#x56DE;&#x8C03;&#xFF0C;&#x662F;&#x83B7;&#x53D6; view &#x5BBD;&#x9AD8;&#x7684;&#x597D;&#x673A;&#x4F1A;</li>
+</ul>
+</li>
+<li>&#x624B;&#x52A8;&#x8C03;&#x7528; measure &#x65B9;&#x6CD5;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>layout &#x8FC7;&#x7A0B;<ul>
+<li>layout &#x65B9;&#x6CD5;&#x786E;&#x5B9A; view &#x4F4D;&#x7F6E;&#xFF08;&#x91CC;&#x9762;&#x4E3B;&#x8981; setFrame &#x65B9;&#x6CD5;&#x8BBE;&#x7F6E; 4 &#x4E2A;&#x5B9A;&#x70B9;&#xFF09;&#xFF0C;onLayout &#x65B9;&#x6CD5;&#xFF08;&#x91CC;&#x9762;&#x4E3B;&#x8981;&#x901A;&#x8FC7; setChildFrame &#x8C03;&#x7528;&#x5B50;&#x5143;&#x7D20;&#x7684; layout &#x65B9;&#x6CD5;&#xFF09;&#x786E;&#x5B9A;&#x5B50;&#x5143;&#x7D20;&#x4F4D;&#x7F6E;</li>
+<li>&#x6D4B;&#x91CF;&#x5BBD;&#x9AD8;&#x5728; measure &#x8FC7;&#x7A0B;&#x3001;&#x6700;&#x7EC8;&#x5BBD;&#x9AD8;&#x5728; layout &#x8FC7;&#x7A0B;&#xFF0C;&#x901A;&#x5E38;&#x76F8;&#x7B49;</li>
+</ul>
+</li>
+<li>draw &#x8FC7;&#x7A0B;<ul>
+<li>&#x753B;&#x80CC;&#x666F; background.draw(canvas)</li>
+<li>&#x753B;&#x81EA;&#x5DF1; onDraw</li>
+<li>&#x753B; children dispatchDraw</li>
+<li>&#x753B;&#x88C5;&#x9970; onDrawScrollBars</li>
+</ul>
+</li>
+<li>&#x81EA;&#x5B9A;&#x4E49; view &#x987B;&#x77E5; P201<ul>
+<li>&#x6CE8;&#x610F;&#x5904;&#x7406; wrap_content\padding &#x60C5;&#x51B5;</li>
+<li>&#x5C3D;&#x91CF;&#x4E0D;&#x8981;&#x4F7F;&#x7528; handler&#xFF0C;&#x6CA1;&#x5FC5;&#x8981;&#xFF0C;view &#x63D0;&#x4F9B;&#x4E86; post &#x65B9;&#x6CD5;</li>
+<li>view &#x6709;&#x7EBF;&#x7A0B;&#x6216;&#x52A8;&#x753B;&#x7684;&#x65F6;&#x5019;&#x9700;&#x8981;&#x53CA;&#x65F6;&#x505C;&#x6B62; p201</li>
+<li>&#x53C2;&#x8003; onDetachFromWindow</li>
+<li>&#x5904;&#x7406;&#x6ED1;&#x52A8;&#x51B2;&#x7A81;</li>
+</ul>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../../开发工具使用技巧/Npm/NPM概览.html" class="navigation navigation-prev " aria-label="Previous page: NPM 概览">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../ReactNative/【RN-插件1】原生插件-初始化、发布npm&使用.html" class="navigation navigation-next " aria-label="Next page: 【RN-插件 1】原生插件-初始化、发布 npm&使用">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"《Android 开发艺术探索》笔记","level":"14.1","depth":1,"next":{"title":"【RN-插件 1】原生插件-初始化、发布 npm&使用","level":"15.1","depth":1,"path":"src/技术总结/编程经验/ReactNative/【RN-插件1】原生插件-初始化、发布npm&使用.md","ref":"src/技术总结/编程经验/ReactNative/【RN-插件1】原生插件-初始化、发布npm&使用.md","articles":[]},"previous":{"title":"NPM 概览","level":"12.1","depth":1,"path":"src/技术总结/开发工具使用技巧/Npm/NPM概览.md","ref":"src/技术总结/开发工具使用技巧/Npm/NPM概览.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"ych","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Journal","language":"zh-hans","links":{"sidebar":{"github":"https://github.com/2333Ge/Personal-Learning"}},"gitbook":"*","description":"description"},"file":{"path":"src/技术总结/编程经验/Android/《Android开发艺术探索》笔记.md","mtime":"2020-11-15T13:03:27.941Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-01-04T05:57:29.421Z"},"basePath":"../../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../../gitbook/gitbook.js"></script>
+    <script src="../../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
