@@ -30,3 +30,10 @@ git branch --show-current
 ```
 git checkout -b + 分支
 ```
+
+- 误操作后的恢复(有 commit 日志)
+
+```
+git log -g
+git branch <分支> commitId // 用对应日志建立新分支
+```
