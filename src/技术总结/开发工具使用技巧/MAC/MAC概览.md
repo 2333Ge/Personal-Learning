@@ -6,6 +6,12 @@
 
 https://support.apple.com/zh-cn/HT201236
 
+## 快速打开控制台
+
+```
+$ cmd + shift + c
+```
+
 ## 左右切换窗口
 
 ```
@@ -77,3 +83,7 @@ ls -l
 ## 查看文件/文件夹路径
 
 将文件/文件夹拖到终端
+
+## 达尔优键盘问题记录
+
+- cmd+a、c 等键失效: option+shift+c
