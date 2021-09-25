@@ -1,0 +1,112 @@
+{
+    "root": {
+        "data": {
+            "id": "cc0k8p4lyoo0",
+            "created": 1623391451197,
+            "text": "讨论类型"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cc0k8p4lyoo0",
+                    "created": 1623391451197,
+                    "text": "知识分享",
+                    "layout_mind_offset": {
+                        "x": -28,
+                        "y": -48
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cc0k8p4lyoo0",
+                            "created": 1623391451197,
+                            "text": "背景、目标",
+                            "layout_mind_offset": {
+                                "x": -43,
+                                "y": -62
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cc0k8p4lyoo0",
+                            "created": 1623391451197,
+                            "text": "实际运行流程",
+                            "layout_mind_offset": {
+                                "x": -43,
+                                "y": -62
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cc0k8p4lyoo0",
+                            "created": 1623391451197,
+                            "text": "线上使用情况",
+                            "layout_mind_offset": {
+                                "x": -43,
+                                "y": -62
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cc0k8p4lyoo0",
+                                    "created": 1623391451197,
+                                    "text": "使用者反馈",
+                                    "layout_mind_offset": {
+                                        "x": -43,
+                                        "y": -62
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cc0k8p4lyoo0",
+                                    "created": 1623391451197,
+                                    "text": "数据分析",
+                                    "layout_mind_offset": {
+                                        "x": -43,
+                                        "y": -62
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cc0k8p4lyoo0",
+                            "created": 1623391451197,
+                            "text": "期间问题、总结",
+                            "layout_mind_offset": {
+                                "x": -43,
+                                "y": -62
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cc0k8p4lyoo0",
+                            "created": 1623391451197,
+                            "text": "市场、同行、同类问题情况考察",
+                            "layout_mind_offset": {
+                                "x": -43,
+                                "y": -62
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
